@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "devDependencies": {
+    "lerna": "^2.8.0",
+    "lerna-changelog": "^0.7.0"
+  },
+  "dependencies": {}
+}
