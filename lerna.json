@@ -1,15 +1,13 @@
 {
   "version": "1.0.0",
   "lerna": "2.8.0",
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/*"],
   "npmClient": "yarn",
   "useWorkspaces": true,
   "parallel": true,
   "message": "[ci skip] chore(release): publish %s",
   "changelog": {
-    "repo": "farism/lerna-git-flow-example",
+    "repo": "farism/lerna-git-flow-deploy-example",
     "labels": {
       "Tag: Breaking Change": ":boom: Breaking Change",
       "Tag: Bug Fix": ":bug: Bug Fix",
@@ -20,26 +18,33 @@
     },
     "cacheDir": ".changelog"
   },
-  "deploy": {
-    "repo": "farism/lerna-git-flow-example",
+  "deploys": {
+    "repo": "farism/lerna-git-flow-deploy-example",
     "semver": {
-      "major": [
-        ":boom: Breaking Change"
-      ],
-      "minor": [
-        ":nail_care: Enhancement",
-        ":rocket: New Feature"
-      ],
-      "patch": [
-        ":bug: Bug Fix",
-        ":house: Internal",
-        ":books: Dependencies"
-      ]
+      "major": [":boom: Breaking Change"],
+      "minor": [":nail_care: Enhancement", ":rocket: New Feature"],
+      "patch": [":bug: Bug Fix", ":house: Internal", ":books: Dependencies"]
     },
     "branch": {
-      "production": "master",
-      "develop": "develop",
-      "release": "next"
+      "stable": "master",
+      "dev": "develop"
+    },
+    "types": {
+      "stable": {
+        "tag": "latest",
+        "skip": {
+          "npm": false,
+          "git": false
+        }
+      },
+      "next": {
+        "preid": "rc",
+        "tag": "next",
+        "skip": {
+          "npm": false,
+          "git": true
+        }
+      }
     }
   }
 }
