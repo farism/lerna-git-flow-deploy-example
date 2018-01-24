@@ -1,5 +1,5 @@
 {
-  "version": "2.0.1",
+  "version": "2.1.0-rc.2",
   "lerna": "2.8.0",
   "packages": [
     "packages/*"
@@ -7,7 +7,7 @@
   "npmClient": "yarn",
   "useWorkspaces": true,
   "parallel": true,
-  "message": "[ci skip] chore(release): publish %s",
+  "message": "[ci skip] publish %s",
   "changelog": {
     "repo": "farism/lerna-git-flow-deploy-example",
     "labels": {
@@ -36,9 +36,9 @@
         ":books: Dependencies"
       ]
     },
-    "branch": {
-      "stable": "master",
-      "dev": "develop"
+    "gitflow": {
+      "master": "master",
+      "develop": "develop"
     },
     "types": {
       "stable": {
