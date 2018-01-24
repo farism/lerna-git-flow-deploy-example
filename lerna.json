@@ -1,5 +1,5 @@
 {
-  "version": "2.0.0",
+  "version": "2.0.1",
   "lerna": "2.8.0",
   "packages": [
     "packages/*"
@@ -45,7 +45,7 @@
         "tag": "latest",
         "publish": {
           "stable": true,
-          "npm": true,
+          "npm": false,
           "git": true
         }
       },
