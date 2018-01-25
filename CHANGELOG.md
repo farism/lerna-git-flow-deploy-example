@@ -1,4 +1,14 @@
 
+## v3.0.0 (2018-01-24)
+
+#### :boom: Breaking Change
+* `package-b`
+  * [#7](https://github.com/farism/lerna-git-flow-deploy-example/pull/7) test bump. ([@farism](https://github.com/farism))
+
+#### Committers: 1
+- Faris Mustafa ([farism](https://github.com/farism))
+
+
 ## v2.1.0 (2018-01-24)
 
 #### :nail_care: Enhancement
