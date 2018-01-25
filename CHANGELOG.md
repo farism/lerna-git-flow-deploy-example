@@ -1,4 +1,13 @@
 
+## v4.0.0 (2018-01-24)
+
+#### :boom: Breaking Change
+* [#33](https://github.com/farism/lerna-git-flow-deploy-example/pull/33) bump deploy version. ([@farism](https://github.com/farism))
+
+#### Committers: 1
+- Faris Mustafa ([farism](https://github.com/farism))
+
+
 ## v3.0.2 (2018-01-24)
 
 #### :bug: Bug Fix
