@@ -1164,9 +1164,9 @@ lerna-changelog@^0.7.0:
     string.prototype.padend "^3.0.0"
     yargs "^6.6.0"
 
-lerna-git-flow-deploy@^0.1.8:
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/lerna-git-flow-deploy/-/lerna-git-flow-deploy-0.1.8.tgz#6d6d96909759f0fa953ab7d37a0495da7bfec903"
+lerna-git-flow-deploy@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/lerna-git-flow-deploy/-/lerna-git-flow-deploy-0.2.0.tgz#6e1fb7f3e8e40ff23175cd90b25eb77f9ba76e4a"
   dependencies:
     "@octokit/rest" "^14.0.5"
     execa-pro "^1.0.2"
