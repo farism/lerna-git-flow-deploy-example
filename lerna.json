@@ -1,5 +1,4 @@
 {
-  "version": "2.1.5",
   "lerna": "2.8.0",
   "packages": [
     "packages/*"
@@ -58,5 +57,6 @@
         }
       }
     }
-  }
+  },
+  "version": null
 }
